@@ -7,7 +7,7 @@
   "author": "Simon Reinisch <trash@reinisch.io>",
   "type": "module",
   "main": "index.js",
-  "packageManager": "pnpm@10.27.0",
+  "packageManager": "pnpm@11.4.0",
   "scripts": {
     "format": "prettier --write apps/**/*.ts",
     "start": "pnpm run \"/^start:.+/\"",
