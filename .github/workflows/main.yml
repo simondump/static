@@ -50,5 +50,5 @@ jobs:
           # Exit if nothing changed
           git diff --cached --quiet && exit 0
 
-          git commit -m "chore: run apps"
+          git commit -m "chore: generate assets"
           git push

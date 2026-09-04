@@ -11,7 +11,8 @@
   "scripts": {
     "format": "prettier --write apps/**/*.ts",
     "start": "pnpm run \"/^start:.+/\"",
-    "start:ghcr-pulls": "tsx apps/ghcr-pulls/app.ts"
+    "start:ghcr-pulls": "tsx apps/ghcr-pulls/app.ts",
+    "start:npm-viselect-downloads": "tsx apps/npm-viselect-downloads/app.ts"
   },
   "dependencies": {
     "@types/node": "24.12.4",
